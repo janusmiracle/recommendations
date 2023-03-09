@@ -4,4 +4,4 @@ Obtains the cover art from tracks using Spotify API
 
 USE:
 
-Edit ```data = client.search("weak hoes", "track")``` in main.py. 
+Edit ```data = client.search("song name", "track")``` in main.py. 
