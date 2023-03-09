@@ -62,5 +62,5 @@ class SpotifyApiClient:
 
 # Run
 client = SpotifyApiClient()
-data = client.search("weak hoes", "track")
+data = client.search("song name", "track")
 client.get_cover(data)
