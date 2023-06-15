@@ -1,5 +1,5 @@
 # Get Track Cover Art
-Obtains a tracks cover art using Spotify API.
+obtains a tracks cover art using Spotify API.
 
 
 USE:
