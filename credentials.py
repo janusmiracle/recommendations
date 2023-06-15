@@ -1,4 +1,3 @@
-# Imports
 import os
 
 # CLIENT_ID & CLIENT_SECRET set in environment variables (held in .zshrc)
