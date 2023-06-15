@@ -2,5 +2,5 @@
 obtains a tracks cover art using Spotify API.
 
 
-Edit ```py
+Edit ```
 data = client.search("song name", "track")``` in main.py. 
