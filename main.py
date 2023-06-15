@@ -1,18 +1,14 @@
-from credentials import get_client_id, get_client_secret
 from authorization import get_access_token
-
-# Other
-import webbrowser
-from urllib.parse import urlencode
-import requests
+from credentials import get_client_id, get_client_secret
 import json
+import requests
 import urllib.request
+from urllib.parse import urlencode
+import webbrowser
 
-# Giggity
 endpoint = "https://api.spotify.com/v1/"
 
-
-class SpotifyApiClient:
+class Client:
     _base_url: str
     _access_token: None
 
@@ -59,8 +55,6 @@ class SpotifyApiClient:
                 
             break
 
-
-# Run
-client = SpotifyApiClient()
+client = Client()
 data = client.search("song name", "track")
 client.get_cover(data)
