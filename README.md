@@ -1,5 +1,5 @@
-# get track cover art
-obtains a tracks cover art using Spotify API.
+Built off of [https://github.com/ybnur/fetch](fetch) repository.
 
+Gets recommendations based on inputted seed entities.
 
-Edit ```data = client.search("song name", "track")``` in main.py. 
+To be used in [https://github.com/ybnur/ferry](ferry) web application.
