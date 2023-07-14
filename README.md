@@ -1,5 +1,5 @@
-Built off of (https://github.com/ybnur/fetch)[fetch] repository.
+Built off of my [fetch](https://github.com/ybnur/fetch) repository.
 
 Gets recommendations based on inputted seed entities.
 
-To be used in [https://github.com/ybnur/ferry](ferry) web application.
+To be used in [ferry](https://github.com/ybnur/ferry) web application.
